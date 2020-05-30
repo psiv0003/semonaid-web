@@ -28,6 +28,9 @@
   font-style: normal;
 }
 
+.flaticon-linkedin:before { content: "\f100"; }
+.flaticon-email:before { content: "\f101"; }
+
 .flaticon-responsive:before { content: "\f100"; }
 .flaticon-development:before { content: "\f101"; }
 .flaticon-app-development:before { content: "\f102"; }

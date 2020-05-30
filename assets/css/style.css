@@ -58,7 +58,8 @@ body {
 	--thm-primary: #4550f8;
 	--thm-primary-rgb: 69, 80, 248;
 	--thm-black: #252c4b;
-	--thm-black-rgb: 37, 44, 75;
+  --thm-black-rgb: 37, 44, 75;
+  --thm-white: #ffffff;
 }
 
 img {
@@ -3206,13 +3207,13 @@ p {
     linear,
     left top,
     right top,
-    from(var(--thm-primary)),
-    to(var(--thm-base))
+    from(var(--thm-white)),
+    to(var(--thm-white))
   );
   background-image: linear-gradient(
     90deg,
-    var(--thm-primary) 0%,
-    var(--thm-base) 100%
+    var(--thm-white) 0%,
+    var(--thm-white) 100%
   );
   -webkit-transition: -webkit-transform 0.4s ease;
   transition: -webkit-transform 0.4s ease;
@@ -3270,7 +3271,7 @@ p {
   }
 }
 .faq-accrodion .accrodion .accrodion-title::before {
-  content: "\f067";
+  /* content: "\f067"; */
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 14px;
@@ -3297,7 +3298,7 @@ p {
   }
 }
 .faq-accrodion .accrodion .accrodion-title::after {
-  content: "\f068";
+  /* content: "\f068"; */
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -4720,7 +4721,7 @@ p {
 	margin-right: auto;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 1px solid #e4e4ee;
+	/* border: 1px solid #e4e4ee; */
 	-webkit-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
